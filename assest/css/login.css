@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left {
+  background-image: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg);
+  background-size: cover;
+  background-position: left;
+  width: 70%;
+  height: 100vh;
+  display: inline-block;
+}
+.left .logo {
+  padding: 42px 51px;
+}
+.left .text {
+  padding: 42px 51px;
+}
+
+.right {
+  width: 100%;
+}
+.right .top {
+  padding: 42px 51px;
+}
+.right .top a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff497c;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.right .top p {
+  margin-top: 10px;
+}
+
+.r-mid {
+  width: 70%;
+  margin-left: 100px;
+}
+.r-mid .rm-text {
+  margin-bottom: 15px;
+}
+.r-mid .rm-imp input {
+  padding: 7px 8px;
+  margin-bottom: 20px;
+}
+.r-mid .rm-btn {
+  margin-top: 10px;
+}
+.r-mid .rm-btn button {
+  border: none;
+  color: white;
+  background-color: #3478F0;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+.r-mid .rm-btn a {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-right: 210px;
+}
+
+@media (max-width: 576px) {
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+  .right .top {
+    padding: 42px 40px;
+  }
+  .right .top a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff497c;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .right .top p {
+    margin-top: 10px;
+  }
+  .r-mid {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .r-mid .rm-text {
+    margin-bottom: 15px;
+  }
+  .r-mid .rm-imp input {
+    padding: 7px 8px;
+    margin-bottom: 20px;
+  }
+  .r-mid .rm-btn {
+    margin-top: 10px;
+  }
+  .r-mid .rm-btn button {
+    border: none;
+    color: white;
+    background-color: #3478F0;
+    padding: 10px 15px;
+    border-radius: 6px;
+  }
+  .r-mid .rm-btn a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 120px;
+  }
+}/*# sourceMappingURL=login.css.map */

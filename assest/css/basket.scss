@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-cart {
+    margin-top: 80px;
+
+    .product-info {
+        background-color: #F6F7FB;
+        height: 80px;
+        border-radius: 6px;
+        padding: 50px;
+        width: 100%;
+
+        span {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .pi-right {
+            span {
+                margin-left: 160px;
+            }
+        }
+    }
+}
+
+#cart-table {
+    #t-body {
+        img {
+            display: inline-block;
+            width: 25%;
+        }
+        input{
+            width: 50%;
+        }
+        .pad{
+            font-size: 14px;
+            font-weight: 500;
+            color: #9c9a9a;
+            padding-top: 43px;
+        }
+    }
+}
+
+#table-bottom {
+    .bottom-t {
+        input {
+            border: none;
+            border-bottom: 1px solid #9c9a9a;
+            outline: none;
+            margin-right: 30px;
+            padding: 0px 5px;
+        }
+
+        button {
+            background-color: white;
+            border: 1px solid #9c9a9a;
+            padding: 10PX 20PX;
+            transition: .5s;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: 600;
+
+            &:hover {
+                background-color: #3478F0;
+                color: white;
+            }
+        }
+    }
+}
+
+#order {
+    .order-box {
+        background-color: #F9F3F0;
+        width: 35%;
+        height: max-content;
+        padding: 34px;
+        border-radius: 6px;
+
+        td {
+            border-bottom: 1px solid;
+            border-color: rgba(101, 105, 115, .2);
+            font-size: var(--font-size-b1);
+            font-weight: var(--s-medium);
+            color: #292930;
+            padding: 18px 15px 18px 0;
+            min-width: 180px;
+        }
+        .order-btn{
+            
+        }
+    }
+}
+@media (max-width:576px) {
+    .product-cart {
+        margin-top: 80px;
+    
+        .product-info {
+            background-color: #F6F7FB;
+            height: 80px;
+            border-radius: 6px;
+            padding: 50px;
+            width: 100%;
+    
+            span {
+                font-size: 20px;
+                font-weight: 500;
+            }
+    
+            .pi-right {
+                span {
+                    margin-left: 160px;
+                }
+            }
+        }
+    }
+    
+    #cart-table {
+        #t-head{
+            display: none;
+        }
+        #t-body {
+            display: flex;
+            flex-direction: column;
+            img {
+                display: inline-block;
+                width: 80%;
+            }
+            td{
+                font-size: 12px;
+            }
+        }
+    }
+    
+    #table-bottom {
+        .bottom-t {
+            display: block !important;
+            input {
+                width: 65%;
+                border: none;
+                border-bottom: 1px solid #9c9a9a;
+                outline: none;
+                margin-right: 30px;
+                padding: 0px 5px;
+            }
+    
+            button {
+                background-color: white;
+                border: 1px solid #9c9a9a;
+                padding: 10PX 20PX;
+                transition: .5s;
+                border-radius: 6px;
+                font-size: 17px;
+                font-weight: 600;
+    
+                &:hover {
+                    background-color: #3478F0;
+                    color: white;
+                }
+            }
+            .update{
+                margin-top: 20px;
+                width: 100% !important;
+            }
+        }
+    }
+    
+    #order {
+        .order-box {
+            background-color: #F9F3F0;
+            width: 100%;
+            height: max-content;
+            padding: 34px;
+            border-radius: 6px;
+            
+    
+            td {
+                border-bottom: 1px solid;
+                border-color: rgba(101, 105, 115, .2);
+                font-size: var(--font-size-b1);
+                font-weight: var(--s-medium);
+                color: #292930;
+                padding: 18px 15px 18px 0;
+                min-width: 180px;
+            }
+        }
+    }
+}

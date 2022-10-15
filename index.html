@@ -1,0 +1,2444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assest/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assest/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="head-top">
+            <div class="container">
+                <div class="ht-box mt-4  d-flex justify-content-between align-items-center">
+                    <div class="col-lg-2 col-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="/assest/images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="What Are You Looking For...">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="btns d-flex justify-content-evenly align-items-center m-auto">
+                            <div class="cur">
+                                <button class="main">USD <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="drop-menu d-flex flex-column justify-content-start align-items-start">
+                                    <button>USD</button>
+                                    <button>AUR</button>
+                                    <button>EUR</button>
+                                </div>
+                            </div>
+                            <div class="lang">
+                                <button class="main">EN <i class="fa-solid fa-chevron-down"></i> </button>
+                                <div
+                                    class="drop-menu l-content d-flex flex-column justify-content-start align-items-start">
+                                    <button>EN</button>
+                                    <button>ARB</button>
+                                    <button>SPN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="head-bottom mt-4">
+            <div class="container">
+                <div class="bottom-box d-flex justify-content-between align-items-center">
+                    <div class="col-lg-2 col-4">
+                        <div class="b-left d-flex justify-content-between align-items-center">
+
+                            <div class="phone-catagori">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                                        class="fa-solid fa-bars"></i> Categories</button>
+
+                                <div class="offca offcanvas offcanvas-start" data-bs-scroll="true"
+                                    data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
+                                    aria-labelledby="offcanvasScrollingLabel">
+                                    <div class="offcanvas-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <ul class="catagori-list">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="/assest/images/cat-01.png" alt="">
+                                                        Fashion
+                                                    </span>
+                                                    <span class="text-end">
+                                                        <i class="cat fa-solid fa-chevron-down"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <hr width="90%">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-02.png"
+                                                            alt="">
+                                                        Electronics
+
+                                                    </span>
+                                                    <span class="text-end">
+                                                        <i class="cat fa-solid fa-chevron-down"></i>
+                                                    </span>
+                                                </a>
+
+                                            </li>
+                                            <hr width="90%">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-03.png"
+                                                            alt="">
+                                                        Home Decor
+
+                                                    </span>
+                                                    <span class="text-end">
+                                                        <i class="cat fa-solid fa-chevron-down"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <hr width="90%">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-04.png"
+                                                            alt="">
+                                                        Medicine
+                                                    </span>
+
+                                                </a>
+                                            </li>
+                                            <hr width="90%">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-06.png"
+                                                            alt="">
+                                                        Furniture
+
+                                                    </span>
+
+                                                </a>
+                                            </li>
+                                            <hr width="90%">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-07.png"
+                                                            alt="">
+
+                                                        Crafts
+                                                    </span>
+
+                                                </a>
+                                            </li>
+                                            <hr width="90%">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-07.png"
+                                                            alt="">
+                                                        Accessories
+
+                                                    </span>
+
+                                                </a>
+                                            </li>
+                                            <hr width="90%">
+                                            <li>
+                                                <a href="">
+                                                    <span class="text-start">
+                                                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-08.png"
+                                                            alt="">
+                                                        Camera
+                                                    </span>
+
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catagories">
+                                <button class="btn-catagori"><i class="fa-solid fa-bars"></i> Categories</button>
+
+                                <div class="catagori-menu">
+                                    <ul class="catagori-list">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="/assest/images/cat-01.png" alt="">
+                                                    Fashion
+                                                </span>
+                                                <span class="text-end">
+                                                    <i class="cat fa-solid fa-chevron-down"></i>
+                                                </span>
+                                            </a>
+                                            <div class="mega-menu">
+                                                <div data-aos="fade-left" class="mega-left">
+                                                    <div class="box-m">
+                                                        <div class="m-top">
+                                                            <h3>Men</h3>
+                                                            <a href="">T-shirts</a>
+                                                            <a href="">Shirts</a>
+                                                            <a href="">Jeans</a>
+                                                        </div>
+                                                        <div class="m-bottom mt-5">
+                                                            <h3>Baby</h3>
+                                                            <a href="">Baby Clothers</a>
+                                                            <a href="">Baby Gear</a>
+                                                            <a href="">Baby Toddler</a>
+                                                            <a href="">Baby Toys</a>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-m">
+                                                        <h3>Women</h3>
+                                                        <a href="">T-shirts</a>
+                                                        <a href="">Shirts</a>
+                                                        <a href="">Jeans</a>
+                                                        <a href="">Tops</a>
+                                                        <a href="">Jumpsuits</a>
+                                                        <a href="">Coats</a>
+                                                    </div>
+                                                    <div class="box-m">
+                                                        <h3>Accessories</h3>
+                                                        <a href="">Handbag</a>
+                                                        <a href="">Shoes</a>
+                                                        <a href="">Wallets</a>
+                                                    </div>
+                                                </div>
+                                                <div class="mega-right" data-aos="fade-up">
+                                                    <h3>features</h3>
+                                                    <div class="rm-top">
+                                                        <div class="mega-img">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature1.png"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="mega-img">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature2.png"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="megaimg">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature3.png"
+                                                                alt="">
+                                                            <img class="ms-2"
+                                                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature4.png"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rm-bottom">
+                                                        <a href="">See All Offers</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <hr width="90%">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-02.png"
+                                                        alt="">
+                                                    Electronics
+
+                                                </span>
+                                                <span class="text-end">
+                                                    <i class="cat fa-solid fa-chevron-down"></i>
+                                                </span>
+                                            </a>
+                                            <div class="mega-menu2">
+                                                <div data-aos="fade-left" class="mega-left">
+                                                    <div class="box-m">
+                                                        <div class="m-top">
+                                                            <h3>Men</h3>
+                                                            <a href="">T-shirts</a>
+                                                            <a href="">Shirts</a>
+                                                            <a href="">Jeans</a>
+                                                        </div>  
+                                                        <div class="m-bottom mt-5">
+                                                            <h3>Baby</h3>
+                                                            <a href="">Baby Clothers</a>
+                                                            <a href="">Baby Gear</a>
+                                                            <a href="">Baby Toddler</a>
+                                                            <a href="">Baby Toys</a>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-m">
+                                                        <h3>Women</h3>
+                                                        <a href="">T-shirts</a>
+                                                        <a href="">Shirts</a>
+                                                        <a href="">Jeans</a>
+                                                        <a href="">Tops</a>
+                                                        <a href="">Jumpsuits</a>
+                                                        <a href="">Coats</a>
+                                                    </div>
+                                                    <div class="box-m">
+                                                        <h3>Accessories</h3>
+                                                        <a href="">Handbag</a>
+                                                        <a href="">Shoes</a>
+                                                        <a href="">Wallets</a>
+                                                    </div>
+                                                </div>
+                                                <div class="mega-right" data-aos="fade-up">
+                                                    <h3>features</h3>
+                                                    <div class="rm-top">
+                                                        <div class="mega-img">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature1.png"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="mega-img">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature2.png"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="megaimg">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature3.png"
+                                                                alt="">
+                                                            <img class="ms-2"
+                                                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature4.png"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rm-bottom">
+                                                        <a href="">See All Offers</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <hr width="90%">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-03.png"
+                                                        alt="">
+                                                    Home Decor
+                                                </span>
+                                                <span class="text-end">
+                                                    <i class="cat fa-solid fa-chevron-down"></i>
+                                                </span>
+                                            </a>
+                                            <div class="mega-menu3">
+                                                <div class="mega-left">
+                                                    <div class="box-m">
+                                                        <div class="m-top">
+                                                            <h3>Men</h3>
+                                                            <a href="">T-shirts</a>
+                                                            <a href="">Shirts</a>
+                                                            <a href="">Jeans</a>
+                                                        </div>
+                                                        <div class="m-bottom mt-5">
+                                                            <h3>Baby</h3>
+                                                            <a href="">Baby Clothers</a>
+                                                            <a href="">Baby Gear</a>
+                                                            <a href="">Baby Toddler</a>
+                                                            <a href="">Baby Toys</a>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-m">
+                                                        <h3>Women</h3>
+                                                        <a href="">T-shirts</a>
+                                                        <a href="">Shirts</a>
+                                                        <a href="">Jeans</a>
+                                                        <a href="">Tops</a>
+                                                        <a href="">Jumpsuits</a>
+                                                        <a href="">Coats</a>
+                                                    </div>
+                                                    <div class="box-m">
+                                                        <h3>Accessories</h3>
+                                                        <a href="">Handbag</a>
+                                                        <a href="">Shoes</a>
+                                                        <a href="">Wallets</a>
+                                                    </div>
+                                                </div>
+                                                <div class="mega-right" data-aos="fade-up">
+                                                    <h3>features</h3>
+                                                    <div class="rm-top">
+                                                        <div class="mega-img">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature1.png"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="mega-img">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature2.png"
+                                                                alt="">
+                                                        </div>
+                                                        <div class="megaimg">
+                                                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature3.png"
+                                                                alt="">
+                                                            <img class="ms-2"
+                                                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature4.png"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="rm-bottom">
+                                                        <a href="">See All Offers</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <hr width="90%">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-04.png"
+                                                        alt="">
+                                                    Medicine
+
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <hr width="90%">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-06.png"
+                                                        alt="">
+                                                    Furniture
+
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <hr width="90%">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-07.png"
+                                                        alt="">
+
+                                                    Crafts
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <hr width="90%">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-07.png"
+                                                        alt="">
+                                                    Accessories
+
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                        <hr width="90%">
+                                        <li>
+                                            <a href="">
+                                                <span class="text-start">
+                                                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-08.png"
+                                                        alt="">
+                                                    Camera
+                                                </span>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="b-mid d-flex justify-content-around align-items-center">
+                            <div class="dropdown">
+                                <button class="dropbtn">Home <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Shop <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="shop.html">Shop Width Sidebar</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Pages <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">About</button>
+
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Blog <i class="fa-solid fa-chevron-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                    <a href="#">Home - Electronics</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropbtn text-decoration-none text-dark" href="/contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-8">
+                        <div class="b-right">
+                            <a class="main-a mediaico" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a class="main-a" href=""><i class="fa-regular fa-heart"></i></a>
+                            <a  class="shop main-a" href="/basket.html"><i class="fa-solid fa-cart-shopping"></i><span
+                                  id="basket-count"  class="icpos">0</span></a>
+                            <button class="users main-a"><i class="fa-regular fa-user"></i>
+                                <div class="login  d-flex flex-column text-start">
+                                    <div class="l-top">
+                                        <span>QUICKLINKS</span>
+                                    </div>
+                                    <a href="">My Account</a>
+                                    <a href="">Initiate return</a>
+                                    <a href="">Support</a>
+                                    <a href="">Language</a>
+                                    <a href="/login.html" class="user-btn">Login</a>
+                                    <div class="log d-flex align-items-center">
+                                        <span>No account yet? </span>
+                                        <a href="">REGISTER HERE.</a>
+                                    </div>
+                                </div>
+                            </button>
+                            </a>
+                            <a class="mediaico main-a" href=""><i class="fa-solid fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+
+    <section id="slider">
+        <div class="container">
+            <div class="row">
+                <div class="slidebox">
+                    <div class="col-lg-9 col-12">
+                        <div class="slide-mid mt-5 ">
+                            <div class="slide-left d-flex flex-column align-items-start justify-content-start">
+                                <span>
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                    Smartphone
+                                </span>
+                                <h1>Up to 60% <br> off Voucher</h1>
+                                <div class="shopbtn  d-flex align-items-center">
+                                    <a href="">Shop Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-right">
+                                <div class="img1"><img
+                                        src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-9.png"
+                                        alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="slidecart mt-5">
+                            <div class="sliderc-top">
+                                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-41.png"
+                                    alt="">
+                            </div>
+                            <div class="sliderc-bottom d-flex flex-column">
+                                <a href="">Stylish Leather Bag</a>
+                                <span>$29.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="product-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="ps-top">
+                        <span><i class="fa-solid fa-fire"></i> Today's</span>
+                        <div class="dwontime">
+                            <h2>Flash Sales</h2>
+                            <div class="countdown optional">
+                                <div id="countdown" class="text-start">
+                                    <ul>
+                                        <li><span id="days"></span><br></li>
+                                        <li><span id="hours"></span><br></li>
+                                        <li><span id="minutes"></span><br></li>
+                                        <li><span id="seconds"></span><br></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ps-carts">
+                <div data-aos="fade-up" class="cart-box responsive mt-4">
+                    <div id="1" class="cart-img">
+                        <div class="c-img-c">
+                            <a href="/product.html"><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png"
+                                alt=""></a>
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span id="add-cart-btn">Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="2" class="cart-img">
+                        <div class="c-img-c">
+                            <a href="/product.html"><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png"
+                                alt=""></a>
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span id="add-cart-btn">Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="3" class="cart-img">
+                        <div class="c-img-c">
+                            <a href="/product.html"><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png"
+                                alt=""></a>
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span id="add-cart-btn">Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="4" class="cart-img">
+                        <div class="c-img-c">
+                            <a href="/product.html"><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png"></a>
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span id="add-cart-btn">Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="5" class="cart-img">
+                        <div class="c-img-c">
+                            <a href="/product.html"><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png"
+                                alt=""></a>
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span id="add-cart-btn">Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="6" class="cart-img">
+                        <div class="c-img-c">
+                            <a href="/product.html"><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-03.png"
+                                alt=""></a>
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span id="add-cart-btn">Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="7"  class="cart-img">
+                        <div class="c-img-c">
+                            <a href="/product.html"><img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-02.png"
+                                alt=""></a>
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span id="add-cart-btn">Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="ps-top">
+                        <span><i class="fa-solid fa-tags"></i>Categories</span>
+                        <div class="dwontime">
+                            <h2>Browse by Category</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ps-sm-carts  mt-5">
+                <div  class="cart-box smresponsive">
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-4.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-5.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-3.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-2.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-1.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-6.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-7.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-8.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-9.png"
+                                alt="">
+                        </div>
+                        <div class="cart-text mt-3">
+                            <h6>Phones</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+    <section id="product-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="ps-top">
+                        <span><i class="fa-solid fa-basket-shopping"></i> This Month</span>
+                        <div class="dwontime">
+                            <h2>Best Selling Products</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ps-carts">
+                <div class="cart-box responsive mt-4">
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="pamada"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-13.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="pamada"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-13.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="pamada"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-13.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-13.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-15.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-14.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div data-aos="zoom-in-left" class="ex-box">
+                    <div class="col-lg-6 col-12">
+                        <div class="ex-text">
+                            <span class="best"><i class="fa-solid fa-headphones-simple"></i>Don’t Miss!!</span>
+                            <h2>Enhance Your<br>Music Experience</h2>
+                            <div class="countdown optional">
+                                <div id="countdowns">
+                                    <ul>
+                                        <li><span id="dayss"></span><br></li>
+                                        <li><span id="hourss"></span><br></li>
+                                        <li><span id="minutess"></span><br></li>
+                                        <li><span id="secondss"></span><br></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a class="ex-btn" href="">Check it Out!</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="ex-img">
+                            <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/poster/poster-03.png"
+                                alt="">
+                            <div class="wifi-symbol">
+                                <div class="wifi-circle first"></div>
+                                <div class="wifi-circle second"></div>
+                                <div class="wifi-circle third"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="ps-top">
+                        <span><i class="fa-solid fa-basket-shopping"></i> This Month</span>
+                        <div class="dwontime">
+                            <h2>Explore our Products</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ps-carts">
+                <div class="cart-box responsiv mt-4">
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-12.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-24.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-25.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-24.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-25.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-22.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-23.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-20.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-21.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-18.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-19.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-16.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-17.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-14.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-15.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-11.png"
+                                alt="">
+                            <img class="secondimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-13.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-text text-start mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    (18)
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-cart text-center">
+                    <a href="">View All Products</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="ps-top">
+                        <span><i class="fa-solid fa-quote-left"></i>Testimonials</span>
+                        <div class="dwontime">
+                            <h2>Users Feedback</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" class="ps-carts">
+                <div class="cart-box responsivee mt-4">
+                    <div class="feed-cart">
+                        <div class="fc-text">
+                            <p>“ It’s amazing how much easier it has been to
+                                meet new people and create instantly non
+                                connections. I have the exact same personal
+                                the only thing that has changed is my mind
+                                set and a few behaviors. “</p>
+                        </div>
+                        <div class="fc-img d-flex align-items-center">
+                            <div class="fed-img">
+                                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-1.png"
+                                    alt="">
+                            </div>
+                            <div class="fed-txt">
+                                <span>Head Of Idea</span>
+                                <h6>James C. Anderson</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-cart">
+                        <div class="fc-text">
+                            <p>“ It’s amazing how much easier it has been to
+                                meet new people and create instantly non
+                                connections. I have the exact same personal
+                                the only thing that has changed is my mind
+                                set and a few behaviors. “</p>
+                        </div>
+                        <div class="fc-img d-flex align-items-center">
+                            <div class="fed-img">
+                                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-3.png"
+                                    alt="">
+                            </div>
+                            <div class="fed-txt">
+                                <span>Head Of Idea</span>
+                                <h6>James C. Anderson</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-cart">
+                        <div class="fc-text">
+                            <p>“ It’s amazing how much easier it has been to
+                                meet new people and create instantly non
+                                connections. I have the exact same personal
+                                the only thing that has changed is my mind
+                                set and a few behaviors. “</p>
+                        </div>
+                        <div class="fc-img d-flex align-items-center">
+                            <div class="fed-img">
+                                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-2.png"
+                                    alt="">
+                            </div>
+                            <div class="fed-txt">
+                                <span>Head Of Idea</span>
+                                <h6>James C. Anderson</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-cart">
+                        <div class="fc-text">
+                            <p>“ It’s amazing how much easier it has been to
+                                meet new people and create instantly non
+                                connections. I have the exact same personal
+                                the only thing that has changed is my mind
+                                set and a few behaviors. “</p>
+                        </div>
+                        <div class="fc-img d-flex align-items-center">
+                            <div class="fed-img">
+                                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-2.png"
+                                    alt="">
+                            </div>
+                            <div class="fed-txt">
+                                <span>Head Of Idea</span>
+                                <h6>James C. Anderson</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-cart">
+                        <div class="fc-text">
+                            <p>“ It’s amazing how much easier it has been to
+                                meet new people and create instantly non
+                                connections. I have the exact same personal
+                                the only thing that has changed is my mind
+                                set and a few behaviors. “</p>
+                        </div>
+                        <div class="fc-img d-flex align-items-center">
+                            <div class="fed-img">
+                                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-1.png"
+                                    alt="">
+                            </div>
+                            <div class="fed-txt">
+                                <span>Head Of Idea</span>
+                                <h6>James C. Anderson</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed-cart">
+                        <div class="fc-text">
+                            <p>“ It’s amazing how much easier it has been to
+                                meet new people and create instantly non
+                                connections. I have the exact same personal
+                                the only thing that has changed is my mind
+                                set and a few behaviors. “</p>
+                        </div>
+                        <div class="fc-img d-flex align-items-center">
+                            <div class="fed-img">
+                                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-2.png"
+                                    alt="">
+                            </div>
+                            <div class="fed-txt">
+                                <span>Head Of Idea</span>
+                                <h6>James C. Anderson</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="arrivals">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="ps-top">
+                        <span><i class="fa-solid fa-basket-shopping"></i>This Week’s</span>
+                        <div class="dwontime">
+                            <h2>New Arrivals</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ps-carts">
+                <div class="cart-box responsive mt-4">
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-13.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="yellow fa-solid fa-circle"></i>
+                                    <i class="red fa-solid fa-circle"></i>
+                                    <i class="blue fa-solid fa-circle"></i>
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-14.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="yellow fa-solid fa-circle"></i>
+                                    <i class="red fa-solid fa-circle"></i>
+                                    <i class="blue fa-solid fa-circle"></i>
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-15.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="yellow fa-solid fa-circle"></i>
+                                    <i class="red fa-solid fa-circle"></i>
+                                    <i class="blue fa-solid fa-circle"></i>
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-9.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="yellow fa-solid fa-circle"></i>
+                                    <i class="red fa-solid fa-circle"></i>
+                                    <i class="blue fa-solid fa-circle"></i>
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-img">
+                        <div class="c-img-c">
+                            <img class="firstimg"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-11.png"
+                                alt="">
+                            <div class="endirim">
+                                20% OFF
+                            </div>
+                        </div>
+                        <div class="cart-text text-center mt-3">
+                            <div class="cart-star">
+                                <span>
+                                    <i class="yellow fa-solid fa-circle"></i>
+                                    <i class="red fa-solid fa-circle"></i>
+                                    <i class="blue fa-solid fa-circle"></i>
+                                </span>
+                            </div>
+                            <a href="">Level 20 RGB Cherry</a>
+                            <div class="price">
+                                <span class="oldprice">$80</span>
+                                <span class="newprice">$60</span>
+                            </div>
+                            <div class="add-cart">
+                                <div class="cart-heart">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="add-cart-text">
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="cart-eyes">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section id="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="search-menu text">
+                        <span><i class="fa-regular fa-envelope-open"></i>Newsletter</span>
+                        <h2>Get weekly update</h2>
+                        <div class="s-box">
+                            <div class="s-inp">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="text" placeholder="example@gmail.com">
+                            </div>
+                            <div class="s-btn">
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="foot-top">
+                <div class="foot-logo ">
+                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/icons/service1.png" alt="">
+                    <div class="foot-text mt-2 ms-1">
+                        <h6>Fast & Secure Delivery</h6>
+                        <p>Tell about your service.</p>
+                    </div>
+                </div>
+                <div class="foot-logo ">
+                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/icons/service2.png" alt="">
+                    <div class="foot-text mt-2 ms-1">
+                        <h6>Money Back Guarantee</h6>
+                        <p>Within 10 days.</p>
+                    </div>
+                </div>
+                <div class="foot-logo ">
+                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/icons/service3.png" alt="">
+                    <div class="foot-text mt-2 ms-1">
+                        <h6>24 Hour Return Policy</h6>
+                        <p>No question ask.</p>
+                    </div>
+                </div>
+                <div class="foot-logo">
+                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/icons/service4.png" alt="">
+                    <div class="foot-text mt-2 ms-1">
+                        <h6>Pro Quality Support</h6>
+                        <p>24/7 Live support.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-bottom mb-3 mt-5 row">
+                <div class="product col-lg-3">
+                    <h4 class="mb-3">Support</h4>
+                    <div class="product-text d-flex flex-column">
+                        <p>685 Market Street,
+                            Las Vegas, LA 95820,
+                            United States.</p>
+                        <a href=""><i class="fa-regular fa-envelope-open"></i> example@domain.com</a>
+                        <a class="mt-2" href=""><i class="fa-solid fa-phone"></i> (+01) 850-315-5862</a>
+                    </div>
+                </div>
+                <div class="product support col-lg-3">
+                    <h4 class="mb-2">Support</h4>
+                    <div class="product-text d-flex flex-column">
+                        <a href="">My Account</a>
+                        <a href="">Login / Register</a>
+                        <a href="">Cart</a>
+                        <a href="">Wishlist</a>
+                        <a href="">Shop</a>
+                    </div>
+                </div>
+                <div class="product support col-lg-3">
+                    <h4 class="mb-2">Quick Link</h4>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms Of Use</a>
+                    <a href="">FAQ</a>
+                    <a href="">Contact</a>
+                    <a href="">Contact</a>
+                </div>
+                <div class="product col-lg-3">
+                    <h4 class="mb-3">Support</h4>
+                    <span>Save $3 With App & New User only</span>
+                    <div class="pro-logo mt-4 d-flex align-items-center">
+                        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/others/qr.png" alt="">
+                        <div class="right ms-3 d-flex flex-column align-items-center">
+                            <img class="mb-3"
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/others/app-store.png"
+                                alt="">
+                            <img class=""
+                                src="https://new.axilthemes.com/demo/template/etrade/assets/images/others/play-store.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-end mb-4">
+                <div class="end-left">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <div class="end-mid">
+                    <p>© 2022. All rights reserved by Axilthemes.</p>
+                </div>
+                <div class="end-right">
+                    <span>Accept For</span>
+                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/icons/cart/cart-1.png"
+                        alt="">
+                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/icons/cart/cart-2.png"
+                        alt="">
+                    <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/icons/cart/cart-5.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a id="button"></a>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/assest/js/app.js"></script>
+</body>
+
+</html>
